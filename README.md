@@ -1,11 +1,11 @@
 # Flight-Deal-Notifier
 OOP-based application to track flight prices using the Amadeus API, by compare them against Google Sheets thresholds via the Sheety API, and send SMS alerts via Twilio when prices drop.
 
-#How to use
+## How to use
 
-Step 1: Go to this link and make a coppy of this google sheet: https://docs.google.com/spreadsheets/d/1YMK-kYDYwuiGZoawQy7zyDjEIU9u8oggCV4H2M9j7os/edit?pli=1&gid=0#gid=0
+Step 1: Go to this link and make a coppy of this google sheet: https://docs.google.com/spreadsheets/d/1Zl0-HKRBXJG9PrspBegiANsW6jWSeGYFz-JhaUqDdhg/edit?gid=0#gid=0
 
-Step 2: Connect to Sheety, https://sheety.co and add your coppy of the file then get your "GET" and "PUT" api.
+Step 2: Connect to Sheety, https://sheety.co and add your coppy of the prices and users file then enable and get your "GET" and "PUT" api for the prices file and enable "GET" and "POST" for the users file.
   - use your own GET api in the data_manager.py file.
  
 Step 3: Connect to Amadeus, https://developers.amadeus.com and get your free tokens.
